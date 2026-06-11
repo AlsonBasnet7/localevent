@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the Starlight Lantern & Arts Festival 2026. Join us at Riverside Park, Brunswick for a weekend of glowing installations, live performances, and delicious local food.">
+  <title>Home | Starlight Lantern & Arts Festival 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="site-logo" id="header-logo">
+        <span class="site-logo-icon"></span>
+        <span class="logo-text">STAR<span>LIGHT</span></span>
+      </a>
+      
+      <!-- Hidden Checkbox for Mobile Navigation Toggle -->
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Main Navigation Menu -->
+      <nav class="main-navigation" id="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="venue.html">Venue & Getting Here</a></li>
+          <li><a href="contact.html">Contact & Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Website Content -->
+  <main class="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero-banner">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <span class="hero-tagline">Community Arts & Culture</span>
+        <h1 class="hero-title">Starlight Lantern & Arts Festival 2026</h1>
+        <p class="hero-desc">Experience Riverside Park transformed into a glowing wonderland of light, music, and culinary art. A free community event celebrating local creativity and connection.</p>
+        <div class="hero-ctas">
+          <a href="programme.html" class="btn btn-primary" id="hero-cta-programme">View Programme</a>
+          <a href="contact.html" class="btn btn-secondary" id="hero-cta-register">Register for Tickets</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Banner & Interactive Countdown -->
+    <section class="container" id="countdown-banner">
+      <div class="info-banner">
+        <div class="info-details">
+          <h3>Festival Details</h3>
+          <p>
+            <span>📅 <strong>Dates:</strong> Oct 16 – Oct 18, 2026</span>
+            <span>📍 <strong>Location:</strong> Riverside Park, Brunswick</span>
+          </p>
+        </div>
+        <div class="countdown-timer" id="timer-container">
+          <div class="timer-box">
+            <span class="timer-num" id="days">127</span>
+            <span class="timer-label">Days</span>
+          </div>
+          <div class="timer-box">
+            <span class="timer-num" id="hours">06</span>
+            <span class="timer-label">Hrs</span>
+          </div>
+          <div class="timer-box">
+            <span class="timer-num" id="minutes">30</span>
+            <span class="timer-label">Min</span>
+          </div>
+          <div class="timer-box">
+            <span class="timer-num" id="seconds">00</span>
+            <span class="timer-label">Sec</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Attractions / Feature Cards -->
+    <section class="container" id="attractions">
+      <div class="section-header">
+        <span class="section-label">Highlights</span>
+        <h2 class="section-title">What to Expect at Starlight</h2>
+        <p class="section-subtitle">Discover three magical days packed with interactive art, stellar live acts, and premium local street food.</p>
+      </div>
+
+      <div class="feature-grid">
+        <!-- Feature 1 -->
+        <article class="feature-card" id="card-lantern-trail">
+          <div class="feature-img-wrapper">
+            <img src="images/lantern-trail.png" alt="Illuminated dragon and lotus flower lanterns lighting up a garden path at night">
+          </div>
+          <div class="feature-content">
+            <span class="feature-tag">Exhibition</span>
+            <h3>Lantern Trails & Light Installations</h3>
+            <p>Wander along the riverbank path adorned with over 50 large-scale, custom-designed lantern structures, hand-crafted by local artists and schools.</p>
+            <a href="programme.html" class="feature-link" id="link-trail">Explore the trail</a>
+          </div>
+        </article>
+
+        <!-- Feature 2 -->
+        <article class="feature-card" id="card-music">
+          <div class="feature-img-wrapper">
+            <img src="images/live-music.png" alt="Outdoor music stage decorated with warm bulbs and string lights, with a crowd watching live musicians">
+          </div>
+          <div class="feature-content">
+            <span class="feature-tag">Performance</span>
+            <h3>Live Music & Community Stages</h3>
+            <p>Catch acoustic performances, folk-fusion bands, and theatrical local groups performing across three different stages throughout the weekend.</p>
+            <a href="programme.html" class="feature-link" id="link-music">View stage lineups</a>
+          </div>
+        </article>
+
+        <!-- Feature 3 -->
+        <article class="feature-card" id="card-market">
+          <div class="feature-img-wrapper">
+            <img src="images/food-market.png" alt="A bustling night market street food stall lit by Chinese lanterns with noodles and dim sum being cooked">
+          </div>
+          <div class="feature-content">
+            <span class="feature-tag">Marketplace</span>
+            <h3>Artisan Food & Craft Market</h3>
+            <p>Satisfy your culinary cravings with local food trucks offering diverse global flavors, paired with hand-crafted jewelry, pottery, and art stalls.</p>
+            <a href="programme.html" class="feature-link" id="link-market">Browse the market</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container" id="about-info">
+      <div class="about-section">
+        <div class="about-text">
+          <span class="section-label">Our Story</span>
+          <h2>A Celebration of Light, Unity & Creativity</h2>
+          <p>The Starlight Lantern & Arts Festival began as a small neighborhood gathering and has blossomed into one of Brunswick's most anticipated annual celebrations.</p>
+          <p>Our festival operates on a sustainable foundation. All light installations utilize energy-efficient LED modules powered by 100% renewable solar generators, and we enforce a strict single-use plastic ban across all vendor stalls.</p>
+          
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <h4>50+</h4>
+              <p>Lantern Displays</p>
+            </div>
+            <div class="highlight-box">
+              <h4>3</h4>
+              <p>Stages & Domes</p>
+            </div>
+            <div class="highlight-box">
+              <h4>40+</h4>
+              <p>Food & Craft Stalls</p>
+            </div>
+            <div class="highlight-box">
+              <h4>100%</h4>
+              <p>Eco-Friendly</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <img src="images/hero-bg.png" alt="Panoramic view of thousands of warm paper lanterns floating above a river at night during the festival">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>STARLIGHT</h3>
+        <p>A community-led arts and light festival celebrating culture, music, and sustainability in the heart of Brunswick.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook">FB</a>
+          <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+          <a href="#" class="social-btn" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="venue.html">Venue Details</a></li>
+          <li><a href="contact.html">Contact & Register</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>General Info</h4>
+        <ul>
+          <li><a href="venue.html#getting-here">Parking & Transport</a></li>
+          <li><a href="venue.html#getting-here">Accessibility Guide</a></li>
+          <li><a href="contact.html">Volunteer Sign-up</a></li>
+          <li><a href="#">FAQ & Rules</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starlight Lantern & Arts Festival. All rights reserved.</p>
+      <p>Holmes Institute HS1021 - Fictional Group Project</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>

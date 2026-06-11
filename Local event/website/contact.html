@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with the Starlight Lantern & Arts Festival team. Register for free tickets, sign up as a food vendor, or volunteer for the 2026 event.">
+  <title>Contact & Register | Starlight Lantern & Arts Festival 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="site-logo" id="header-logo">
+        <span class="site-logo-icon"></span>
+        <span class="logo-text">STAR<span>LIGHT</span></span>
+      </a>
+      
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-navigation" id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="venue.html">Venue & Getting Here</a></li>
+          <li><a href="contact.html" class="active">Contact & Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Website Content -->
+  <main class="main-content">
+    
+    <section class="container" id="contact-section">
+      <div class="contact-grid">
+        
+        <!-- Ticket Registration & Enquiry Form -->
+        <div class="contact-card" id="form-container">
+          <h2>Registration & Enquiries</h2>
+          <p class="form-intro">Secure your free entry pass or send us a general enquiry. Registration helps us manage crowd safety and vendor supply.</p>
+          
+          <!-- Mock Success Message Alert -->
+          <div class="success-msg" id="success-alert" role="alert">
+            ✨ Success! Your ticket registration/enquiry has been submitted. Check your inbox for confirmation.
+          </div>
+
+          <form action="#success-alert" method="GET" id="registration-form">
+            <!-- Full Name field -->
+            <div class="form-group">
+              <label for="fullname" class="form-label">Full Name</label>
+              <input type="text" id="fullname" name="fullname" class="form-control" placeholder="John Doe" required>
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="john.doe@example.com" required>
+            </div>
+
+            <!-- Row: Ticket Type and Quantity -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ticket-type" class="form-label">Registration Type</label>
+                <select id="ticket-type" name="ticket_type" class="form-control">
+                  <option value="general-free">General Admission (Free)</option>
+                  <option value="vip-pass">VIP Pass (Art Dome Access) - $45</option>
+                  <option value="volunteer">Volunteer Sign-up</option>
+                  <option value="general-enquiry">General Question / Feedback</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="ticket-qty" class="form-label">Quantity</label>
+                <input type="number" id="ticket-qty" name="ticket_qty" class="form-control" min="1" max="10" value="1">
+              </div>
+            </div>
+
+            <!-- Message field -->
+            <div class="form-group">
+              <label for="message" class="form-label">Message / Special Requests</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Tell us if you have any accessibility requirements, or write your enquiry here..." required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary" style="width: 100%; border: none;" id="btn-submit">Submit Registration</button>
+          </form>
+        </div>
+
+        <!-- Contact Information Panel -->
+        <div class="contact-info-panel" id="info-panel">
+          <span class="section-label">Get In Touch</span>
+          <h2>We'd Love to Hear From You</h2>
+          <p>Have questions about stall spaces, performance spots, or accessibility arrangements? Get in touch directly or follow our social channels for daily announcements.</p>
+
+          <ul class="info-list">
+            <!-- Email -->
+            <li>
+              <div class="info-item-icon">@</div>
+              <div class="info-item-details">
+                <h4>General Queries</h4>
+                <p>hello@starlightbrunswick.com.au</p>
+              </div>
+            </li>
+
+            <!-- Phone -->
+            <li>
+              <div class="info-item-icon">☏</div>
+              <div class="info-item-details">
+                <h4>Information Hotline</h4>
+                <p>+61 (03) 9876 5432</p>
+              </div>
+            </li>
+
+            <!-- Venue / Address -->
+            <li>
+              <div class="info-item-icon">📍</div>
+              <div class="info-item-details">
+                <h4>Festival HQ Office</h4>
+                <p>120 Riverside Drive, Brunswick VIC 3056</p>
+              </div>
+            </li>
+          </ul>
+
+          <h3>Join the Community</h3>
+          <p style="margin-bottom: 1.5rem;">Follow us on social media to see artist spotlight releases, sneak peeks of the lantern designs, and food truck lists.</p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">FB</a>
+            <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+            <a href="#" class="social-btn" aria-label="Twitter">TW</a>
+            <a href="#" class="social-btn" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>STARLIGHT</h3>
+        <p>A community-led arts and light festival celebrating culture, music, and sustainability in the heart of Brunswick.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook">FB</a>
+          <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+          <a href="#" class="social-btn" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="venue.html">Venue Details</a></li>
+          <li><a href="contact.html">Contact & Register</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>General Info</h4>
+        <ul>
+          <li><a href="venue.html#getting-here">Parking & Transport</a></li>
+          <li><a href="venue.html#getting-here">Accessibility Guide</a></li>
+          <li><a href="contact.html">Volunteer Sign-up</a></li>
+          <li><a href="#">FAQ & Rules</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starlight Lantern & Arts Festival. All rights reserved.</p>
+      <p>Holmes Institute HS1021 - Fictional Group Project</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>

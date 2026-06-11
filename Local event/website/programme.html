@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Starlight Lantern & Arts Festival 2026 programme. Plan your visit with our full schedule of live music, art workshops, and light trails.">
+  <title>Programme | Starlight Lantern & Arts Festival 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="site-logo" id="header-logo">
+        <span class="site-logo-icon"></span>
+        <span class="logo-text">STAR<span>LIGHT</span></span>
+      </a>
+      
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-navigation" id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programme.html" class="active">Programme</a></li>
+          <li><a href="venue.html">Venue & Getting Here</a></li>
+          <li><a href="contact.html">Contact & Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Website Content -->
+  <main class="main-content">
+    
+    <section class="container" id="programme-section">
+      <div class="section-header">
+        <span class="section-label">Schedule</span>
+        <h1 class="section-title">Festival Programme</h1>
+        <p class="section-subtitle">Plan your weekend with our detailed timetable of light walks, acoustic sessions, and hands-on workshops across three stages.</p>
+      </div>
+
+      <!-- Hidden Radio Inputs for Pure CSS Filtering -->
+      <input type="radio" id="filter-all" name="stage-filter" checked style="display: none;">
+      <input type="radio" id="filter-main" name="stage-filter" style="display: none;">
+      <input type="radio" id="filter-dome" name="stage-filter" style="display: none;">
+      <input type="radio" id="filter-trail" name="stage-filter" style="display: none;">
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs" id="filters-container">
+        <label for="filter-all" class="filter-btn filter-btn-all">All Events</label>
+        <label for="filter-main" class="filter-btn filter-btn-main">Main Stage</label>
+        <label for="filter-dome" class="filter-btn filter-btn-dome">Workshop Dome</label>
+        <label for="filter-trail" class="filter-btn filter-btn-trail">Lantern Trail</label>
+      </div>
+
+      <!-- Timetable Container -->
+      <div class="timetable-container" id="schedule-table-wrapper">
+        <table class="timetable">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Activity / Event</th>
+              <th>Host / Performer</th>
+              <th>Location</th>
+              <th>Category</th>
+            </tr>
+          </thead>
+          <tbody id="timetable-body">
+            <!-- Row 1 -->
+            <tr class="event-row" data-stage="main">
+              <td class="time-slot">18:00 - 18:30</td>
+              <td>
+                <span class="event-title">Opening & Welcome Ceremony</span>
+                <span class="event-speaker">Official launch of the 2026 festival</span>
+              </td>
+              <td>Festival Committee & Elders</td>
+              <td>Main Stage</td>
+              <td><span class="location-badge badge-main">Performance</span></td>
+            </tr>
+            <!-- Row 2 -->
+            <tr class="event-row" data-stage="main">
+              <td class="time-slot">18:30 - 20:00</td>
+              <td>
+                <span class="event-title">Twilight Symphony Orchestral Live</span>
+                <span class="event-speaker">Epic orchestral scores under the stars</span>
+              </td>
+              <td>Melbourne Pops Orchestra</td>
+              <td>Main Stage</td>
+              <td><span class="location-badge badge-main">Music</span></td>
+            </tr>
+            <!-- Row 3 -->
+            <tr class="event-row" data-stage="dome">
+              <td class="time-slot">19:00 - 20:30</td>
+              <td>
+                <span class="event-title">Lantern Making Workshop (Adults)</span>
+                <span class="event-speaker">Design and construct your own bamboo lantern</span>
+              </td>
+              <td>Paper Craft Guild</td>
+              <td>Workshop Dome</td>
+              <td><span class="location-badge badge-dome">Workshop</span></td>
+            </tr>
+            <!-- Row 4 -->
+            <tr class="event-row" data-stage="trail">
+              <td class="time-slot">19:30 - 22:30</td>
+              <td>
+                <span class="event-title">Starlight Lantern Trail Lighting</span>
+                <span class="event-speaker">Synchronized illumination of 50+ structures</span>
+              </td>
+              <td>Featured Visual Artists</td>
+              <td>Lantern Trail</td>
+              <td><span class="location-badge badge-trail">Exhibition</span></td>
+            </tr>
+            <!-- Row 5 -->
+            <tr class="event-row" data-stage="main">
+              <td class="time-slot">20:30 - 22:00</td>
+              <td>
+                <span class="event-title">Acoustic Folk & Blues Session</span>
+                <span class="event-speaker">Chilled indie vibes and acoustic guitar sets</span>
+              </td>
+              <td>The Brunswick Trio</td>
+              <td>Main Stage</td>
+              <td><span class="location-badge badge-main">Music</span></td>
+            </tr>
+            <!-- Row 6 -->
+            <tr class="event-row" data-stage="dome">
+              <td class="time-slot">21:00 - 22:00</td>
+              <td>
+                <span class="event-title">Shadows & Puppetry Stories</span>
+                <span class="event-speaker">Traditional Asian shadow theatre and storytelling</span>
+              </td>
+              <td>Puppet Theatre Co.</td>
+              <td>Workshop Dome</td>
+              <td><span class="location-badge badge-dome">Workshop</span></td>
+            </tr>
+            <!-- Row 7 -->
+            <tr class="event-row" data-stage="trail">
+              <td class="time-slot">22:00 - 22:30</td>
+              <td>
+                <span class="event-title">Community Lantern Light Parade</span>
+                <span class="event-speaker">Showcasing public lantern creations along the river</span>
+              </td>
+              <td>Community Participants</td>
+              <td>Lantern Trail</td>
+              <td><span class="location-badge badge-trail">Exhibition</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="timetable-notes">* Timetable details are subject to change. Please visit the info desk at the venue entrance for real-time announcements.</p>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>STARLIGHT</h3>
+        <p>A community-led arts and light festival celebrating culture, music, and sustainability in the heart of Brunswick.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook">FB</a>
+          <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+          <a href="#" class="social-btn" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="venue.html">Venue Details</a></li>
+          <li><a href="contact.html">Contact & Register</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>General Info</h4>
+        <ul>
+          <li><a href="venue.html#getting-here">Parking & Transport</a></li>
+          <li><a href="venue.html#getting-here">Accessibility Guide</a></li>
+          <li><a href="contact.html">Volunteer Sign-up</a></li>
+          <li><a href="#">FAQ & Rules</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starlight Lantern & Arts Festival. All rights reserved.</p>
+      <p>Holmes Institute HS1021 - Fictional Group Project</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>

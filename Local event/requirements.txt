@@ -1,0 +1,236 @@
+Group Assignment
+Assessment Details and Submission Guidelines
+Trimester
+T1-MT 2026
+Unit Code
+HS1021
+Unit Title
+Web Design
+Assessment Type
+Group Assignment
+Weight
+60 %
+Submission Guidelines
+All work must be submitted on Blackboard by the due date along with a completed Assignment Cover Page.
+The assignment must be in MS Word format unless otherwise specified.
+Academic Integrity Information
+Holmes Institute is committed to ensuring and upholding academic integrity. All assessments must comply with academic integrity guidelines. Please learn about academic integrity and consult your teachers with any questions. Violating academic integrity is serious and punishable by penalties that range from deduction of marks, failure of the assessment task or unit involved, suspension of course enrolment, or cancellation of course enrolment.
+Penalties
+All work must be submitted on Blackboard by the due date and time, along with a completed Assessment Cover Page. Late penalties apply.
+20% penalty applicable for solo (single student) group submissions.
+Your answers must be based on Holmes Institute syllabus of this unit. Outside sources may not amount to more than 10% of any answer and must be correctly referenced in full. Over-reliance on outside sources will be penalised
+Reference sources must be cited in the text of the report and listed appropriately at the end in a reference list using Holmes Institute Adapted Harvard
+Referencing. Penalties are associated with incorrect citation and referencing.
+Group Assignment Guidelines and Specifications
+Group Website Design Project
+Assessment Overview (Group Work – 60 Marks Total)
+In this assessment, students will design, develop, and document a fully functional multi-page website using HTML5 and CSS — without automated code generators or CSS frameworks. Each team will simulate a real-world client engagement: gathering requirements from a mock client, producing professional design and technical documentation, and delivering a validated, accessible website prototype.
+Business Scenario Selection
+Each group will choose one business category from the list below and build a website for a fictional business of that type. This simulates real professional practice, a web designer does not always get to choose their client, but they do bring creative judgment to every project.
+Every group must select a topic from listed below. Register your choice with your lecturer using the scenario registration process described below.
+#
+Business Category
+Description and Example Content Required
+1
+Local Café or Restaurant
+A fictional café, restaurant, or bakery. Required pages: Home, Menu, Gallery, Contact. Must include a menu layout, food/drink images, and opening hours. Example fictional name: The Corner Roast, Bella Trattoria, Sunrise Bakehouse.
+2
+Community Sports Club or Fitness Studio
+A fictional local sports club, gym, or yoga/pilates studio. Required pages: Home, About / Our Team, Classes / Schedule, Contact. Must include a weekly timetable or class schedule, team bios, and a membership enquiry form. Example: Eastside FC, Ignite Fitness Studio, Flow Yoga Collective.
+3
+Small Charity or Not-for-Profit Organisation
+A fictional community charity, volunteering organisation, or advocacy group. Required pages: Home, About / Our Mission, Get Involved, Contact. Must include a volunteer sign-up form, mission statement, and an impact highlights section. Example: Green Streets Foundation, The Harbour Pantry, Paws & Care Animal Rescue.
+4
+Boutique Accommodation or Tourism Experience
+A fictional small hotel, hostel, bed and breakfast, or tour operator. Required pages: Home, Rooms / Experiences, Gallery, Contact / Book. Must include accommodation or tour descriptions, pricing overview, photo gallery, and an enquiry form. Example: EcoStay Hostel, The Summit Lodge, Melbourne Laneway Tours.
+5
+Local Event or Festival
+A fictional recurring community event, arts festival, or market. Required pages: Home, Programme / Schedule, Venue & Getting Here, Contact. Must include an event programme table, venue information with map placeholder, and a ticket enquiry or registration form. Example: Riverside Night Market, The Brunswick Arts Festival, Bayside Food & Wine Fair.
+Scenario Registration
+Each group must submit a short scenario registration to their lecturer containing:
+Group number and all member names
+The scenario category number chosen (1–5)
+The fictional business name your group has invented
+One sentence describing the fictional business (e.g., 'The Corner Roast is a specialty coffee café in Fitzroy targeting students and young professionals.')
+Groups that do not register will be assigned a category by the lecturer.
+Learning Outcomes Addressed
+By completing this assessment, students will be able to:
+Apply web-related programming skills to design and develop a web-based system for a particular business scenario. (ULO 3)
+Understand and evaluate business problems related to web design and suggest possible solutions. (ULO 4)
+Work autonomously as well as within a group to develop a solution to a business scenario and communicate this solution to a diverse range of stakeholders. (ULO 5)
+Assess the ICT profession and the expectations of ICT professionals in web design roles. (ULO 6)
+Project Description
+Based on your registered business scenario, your group will build a website consisting of at least four interlinked pages. The specific required pages for each scenario are listed in the Scenario Selection table above.
+Across all scenarios, the website must:
+Use semantic HTML5 elements (header, nav, main, section, article, footer) — no inline styles, no CSS frameworks such as Bootstrap or Tailwind.
+Use a single external CSS file (styles.css) for all visual styling.
+Include consistent navigation across all pages with working internal links.
+Demonstrate effective typography, colour scheme, and appropriate use of images aligned with the chosen business brand.
+Be responsive — pages must display correctly on both desktop and mobile screen widths.
+Pass W3C HTML and CSS validation with no critical errors.
+Include a contact or enquiry form (name, email, message fields minimum) on the appropriate page.
+Important Restrictions
+Do not use CSS frameworks (Bootstrap, Tailwind, Foundation, etc.) or website builders (Wix, Squarespace, WordPress, etc.).
+Do not use AI code-generation tools to write your HTML or CSS.
+All images must be royalty-free (e.g., Unsplash, Pexels) or original. Cite all image sources in your report.
+Deliverables
+1. Website Prototype (30 marks)
+A working website submitted as a compressed folder named groupname_HS1021_website.zip containing:
+All HTML files (minimum four pages as specified by your scenario)
+A single external CSS file (styles.css)
+All images and media assets used on the site, organised in an /images subfolder
+A README.txt file listing each member's name and their primary contribution to the HTML/CSS code
+2. Design and Technical Documentation (30 marks)
+Each group must submit a report of 1,200–1,800 words including all of the following sections. Each section must be clearly labelled with a heading.
+Section
+Required Content
+Client Requirements Summary
+A written record of your group's mock-client consultation process. Describe how your group identified the client's needs (e.g., a written questionnaire, mock meeting notes, or an email exchange). List at least six specific website requirements that emerged from this process and explain how each shaped your design or technical decisions.
+Site Map and Wireframes
+A site map diagram showing the page hierarchy and navigation structure of your website. Wireframes for at least two pages (hand-drawn or created digitally) showing layout before coding began — see the Wireframe Format Reference on the following page for the expected level of detail. Briefly explain the design rationale behind your major layout decisions.
+Style Guide
+Document your visual design decisions: colour palette with hex codes, font names and size hierarchy, spacing and layout conventions, and image or icon usage guidelines. Explain how these choices reflect your chosen business brand and target audience.
+Technical Implementation
+Explain your HTML5 structure (semantic elements used and why), your CSS approach (key selectors, box model, how you achieved responsiveness), any significant challenges encountered, and how your group resolved them. Include screenshots of your W3C HTML and CSS validator results showing your final validation status.
+Individual Reflection (one per member)
+Each group member writes approximately 100 words describing their specific contribution to the project, one thing they learned about web design or working in a team, and one thing they would do differently if repeating the project.
+Submission Requirements
+Item
+Format / Notes
+Website folder (HTML, CSS, media)
+Compressed .zip — named groupname_HS1021_website.zip
+Design and Technical Report
+Microsoft Word format only (.docx)
+Submission method
+Via Blackboard — both files submitted in the same submission
+Group size
+3–4 students per group
+Wireframe Format Reference
+Format Reference Only — Do Not Copy This Layout
+The wireframe below shows the expected level of detail and labelling for your wireframe deliverable. It illustrates a generic home page layout — it does not represent any specific scenario and you must not replicate this layout in your own wireframes. Your wireframes should reflect the unique design decisions made for your chosen business.
+Example: Generic Home Page Wireframe (desktop view)
+HEADER / LOGO + SITE NAME
+[ Logo ]  |  [ Site Name ]
+NAVIGATION BAR
+Home
+About
+Rooms / Facilities
+Contact
+HERO SECTION
+[ Headline Text ]
+[ Subheading / tagline ]
+[ Call-to-action button ]
+[ Hero Image ]
+1200 × 600 px
+MAIN CONTENT AREA — Feature Blocks
+[ Feature block 1 ]
+[ Feature block 2 ]
+[ Feature block 3 ]
+SECONDARY CONTENT / ABOUT SNIPPET
+[ Text block — 2–3 sentences of descriptive content ]
+FOOTER — Copyright | Links | Social Icons
+[ Footer content — links, copyright, social icons ]
+Figure 1 — Example wireframe showing expected zone labels, placeholder text, and basic layout structure. Your wireframes must include: named zones or sections, placeholder labels for content, navigation indication, and rough proportions of layout columns.
+What Your Wireframes Must Show
+Element
+What to Include
+Page zones / sections
+Clearly labelled rectangles for each zone: header, navigation, hero, main content, sidebar if used, footer.
+Navigation structure
+A labelled navigation bar showing the page names — does not need to show final styling, just position and labels.
+Content placeholders
+Use placeholder labels such as [Headline Text], [Image 300×200], [Paragraph content], [Button — Book Now] to indicate what goes where without designing the actual content.
+Proportions
+Drawn roughly to proportion — if the image is twice the width of the text column, the wireframe should show that relationship.
+Annotations
+Short notes beside elements explaining design decisions, e.g. 'Nav sticks to top on scroll' or 'Two-column layout collapses to one column on mobile'.
+Page label
+Each wireframe must be clearly labelled with the page name at the top, e.g. 'Home Page — Desktop View'.
+Wireframes may be hand-drawn and photographed, or created digitally using any tool (pen and paper, PowerPoint, draw.io, Figma, etc.). They must be embedded or pasted into your Word report document, do not submit them as separate files.
+Marking Rubric — Web Design Group Assessment (60 marks total)
+Component 1: Website Prototype (30 marks)
+Criteria
+Marks
+Excellent
+Good
+Pass
+Incomplete
+Layout and Structure (8 marks)
+8
+Excellent semantic HTML5 across all required pages; clear content hierarchy; consistent structure throughout; all required pages present.
+Good layout and logical HTML structure; minor inconsistencies across one or two pages.
+Acceptable structure but with noticeable issues, non-semantic elements, or inconsistent formatting.
+Poor structure, missing semantic elements, broken layout, or fewer than four pages present.
+Design and Aesthetics (8 marks)
+8
+Visually professional design clearly aligned with the chosen business brand; strong and consistent use of colour, typography, spacing, and imagery.
+Cohesive design with thoughtful aesthetic choices; minor inconsistencies in colour or typography.
+Basic design with limited attention to branding or user experience; generic appearance.
+Poor or inconsistent design; no clear brand alignment; unreadable or distracting content.
+Navigation and Usability (6 marks)
+6
+Seamless, intuitive navigation present across all pages; consistent menus; all internal links functional; contact form fields labelled and accessible.
+Logical and easy-to-use navigation; small usability issues; form present with minor issues.
+Basic navigation present but with usability issues, broken links, or form missing labels.
+Confusing, inconsistent, or non-functional navigation; no working form.
+Responsiveness and Cross-Browser (4 marks)
+4
+Fully responsive across desktop and mobile; displays correctly in both Chrome and Firefox; all images and media scale appropriately.
+Minor responsiveness issues; functional in both required browsers with small display variations.
+Limited responsiveness; noticeable layout problems on mobile or in one browser.
+Not responsive; major display issues in one or more browsers.
+W3C Validation (4 marks)
+4
+HTML5 and CSS fully validated with no critical errors; validation screenshots included in report.
+Minor validation warnings; overall compliant; validation screenshots present.
+Several validation errors; validation attempted but results not documented.
+Fails W3C validation; no validation attempted or no evidence provided.
+Subtotal
+/30
+Component 2: Design and Technical Documentation (30 marks)
+Criteria
+Marks
+Excellent
+Good
+Pass
+Incomplete
+Client Requirements Analysis (6 marks)
+6
+Comprehensive requirements analysis with at least six specific requirements clearly derived from the mock-client process; strong evidence of consultation (meeting notes, questionnaire, or email record).
+Clear understanding of client needs; at least four requirements identified; adequate communication record.
+Minimal requirements identified; fewer than four listed; communication process unclear.
+No clear requirements analysis; no evidence of client consultation process.
+Site Map and Wireframes (6 marks)
+6
+Clear site map showing correct page hierarchy; wireframes for at least two pages at the expected level of detail (see Wireframe Format Reference); design rationale clearly explained.
+Site map and wireframes present; mostly clear and logical; brief rationale provided.
+Site map or one wireframe missing; wireframes below expected level of detail; little rationale.
+Site map and wireframes both missing or entirely inadequate.
+Style Guide (6 marks)
+6
+Detailed style guide with hex colour codes, named fonts and size hierarchy, layout conventions, and image guidelines; clearly aligned with the chosen business scenario.
+Good style guide covering colour, typography, and layout; mostly aligned with scenario.
+Basic style guide; some elements missing (e.g., no hex codes or incomplete font specification).
+Style guide missing or only one or two elements mentioned.
+Technical Implementation (6 marks)
+6
+Excellent explanation of HTML5 and CSS structure, coding decisions, responsiveness approach, challenges and solutions; W3C validation screenshots for both HTML and CSS included.
+Clear technical explanation covering most key elements; validation evidence present.
+Basic technical notes; lacks precision or insight; minimal validation evidence.
+No meaningful technical explanation; no validation screenshots.
+Report Professionalism (3 marks)
+3
+Exceptionally clear and professionally formatted report; correct Harvard citations; logical structure; within 1,200–1,800 word count.
+Well-organised and mostly error-free; references present; close to word count.
+Understandable but lacks structure or contains frequent writing errors.
+Poorly written or disorganised; no references; significantly outside word count.
+Individual Reflections (3 marks)
+3
+All members provide thoughtful ~100-word reflections with genuine personal insight about their contribution, learning, and what they would do differently.
+Reflections present for all members; mostly thoughtful with some personal insight.
+Superficial reflections with limited personal analysis, or not all members contributed one.
+Reflections missing, entirely generic, or only one member contributed.
+Subtotal
+/30
+TOTAL
+/60
