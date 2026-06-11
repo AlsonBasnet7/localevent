@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Plan your trip to the Starlight Lantern & Arts Festival 2026. Find directions, public transport details, parking guides, and our official festival venue map.">
   <title>Venue & Directions | Starlight Lantern & Arts Festival 2026</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- Navigation Header -->
+  <!-- header -->
   <header class="site-header">
     <div class="nav-container">
       <a href="index.html" class="site-logo" id="header-logo">
@@ -35,13 +35,13 @@
     </div>
   </header>
 
-  <!-- Main Website Content -->
+  <!-- page content -->
   <main class="main-content">
     
     <section class="container" id="venue-overview">
       <div class="venue-grid">
         
-        <!-- Venue Details -->
+        <!-- venue info -->
         <div class="venue-info" id="venue-details-card">
           <span class="section-label">Location</span>
           <h1>Riverside Park, Brunswick</h1>
@@ -57,55 +57,55 @@
           <p>Please note: The festival area is fully accessible to wheelchair users, strollers, and service animals. High-speed guest Wi-Fi points are active throughout the festival layout.</p>
         </div>
 
-        <!-- Venue Map Placeholder -->
+        <!-- map -->
         <div class="map-container" id="festival-map-card">
           <h2>Festival Layout Map</h2>
           <div class="map-placeholder">
-            <!-- Custom Styled Vector Map Schema (Inline W3C Compliant SVG) -->
+            <!-- inline SVG map -->
             <div class="mock-map">
-              <svg width="100%" height="100%" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg" style="background-color: #0d0c22;">
-                <!-- River Merri Creek -->
-                <path d="M 0 280 C 150 280, 250 120, 500 120 L 500 0 L 0 0 Z" fill="#151d45" opacity="0.6"/>
-                <path d="M 0 280 C 150 280, 250 120, 500 120" stroke="#00f2fe" stroke-width="6" fill="none" opacity="0.8"/>
+              <svg width="100%" height="100%" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg" style="background-color: #222831;">
+                <!-- river -->
+                <path d="M 0 280 C 150 280, 250 120, 500 120 L 500 0 L 0 0 Z" fill="#393e46" opacity="0.5"/>
+                <path d="M 0 280 C 150 280, 250 120, 500 120" stroke="#00adb5" stroke-width="6" fill="none" opacity="0.9"/>
                 
-                <!-- Paths / Walking trails -->
-                <path d="M 20 300 C 120 220, 250 250, 480 180" stroke="rgba(255, 255, 255, 0.2)" stroke-width="4" stroke-dasharray="6,6" fill="none"/>
-                <path d="M 50 320 L 450 320" stroke="rgba(255, 255, 255, 0.2)" stroke-width="3" stroke-dasharray="6,6" fill="none"/>
+                <!-- walking paths -->
+                <path d="M 20 300 C 120 220, 250 250, 480 180" stroke="rgba(238,238,238,0.2)" stroke-width="4" stroke-dasharray="6,6" fill="none"/>
+                <path d="M 50 320 L 450 320" stroke="rgba(238,238,238,0.2)" stroke-width="3" stroke-dasharray="6,6" fill="none"/>
 
-                <!-- Main Stage Icon -->
-                <rect x="80" y="150" width="70" height="40" rx="5" fill="rgba(255, 59, 111, 0.15)" stroke="#ff3b6f" stroke-width="2"/>
-                <text x="115" y="174" fill="#ff3b6f" font-family="Outfit, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Main Stage</text>
+                <!-- main stage -->
+                <rect x="80" y="150" width="70" height="40" rx="5" fill="rgba(0, 173, 181, 0.15)" stroke="#00adb5" stroke-width="2"/>
+                <text x="115" y="174" fill="#00adb5" font-family="Outfit, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Main Stage</text>
 
-                <!-- Workshop Dome Icon -->
-                <circle cx="340" cy="180" r="30" fill="rgba(255, 170, 51, 0.15)" stroke="#ffaa33" stroke-width="2"/>
-                <text x="340" y="184" fill="#ffaa33" font-family="Outfit, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Workshops</text>
+                <!-- workshop dome -->
+                <circle cx="340" cy="180" r="30" fill="rgba(57, 62, 70, 0.8)" stroke="#eeeeee" stroke-width="2"/>
+                <text x="340" y="184" fill="#eeeeee" font-family="Outfit, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Workshops</text>
 
-                <!-- Food Market Zone -->
-                <rect x="200" y="240" width="90" height="45" rx="5" fill="rgba(0, 242, 254, 0.15)" stroke="#00f2fe" stroke-width="2"/>
-                <text x="245" y="266" fill="#00f2fe" font-family="Outfit, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Food Market</text>
+                <!-- food market -->
+                <rect x="200" y="240" width="90" height="45" rx="5" fill="rgba(0, 173, 181, 0.12)" stroke="#00adb5" stroke-width="2"/>
+                <text x="245" y="266" fill="#00adb5" font-family="Outfit, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Food Market</text>
 
-                <!-- Riverbank Lantern Trail indicators -->
+                <!-- lantern trail dots -->
                 <path d="M 120 110 L 260 180" stroke="none" fill="none"/>
-                <circle cx="160" cy="190" r="4" fill="#ffaa33" filter="drop-shadow(0px 0px 4px #ffaa33)"/>
-                <circle cx="210" cy="185" r="4" fill="#ff3b6f" filter="drop-shadow(0px 0px 4px #ff3b6f)"/>
-                <circle cx="260" cy="165" r="4" fill="#ffaa33" filter="drop-shadow(0px 0px 4px #ffaa33)"/>
-                <circle cx="300" cy="145" r="4" fill="#00f2fe" filter="drop-shadow(0px 0px 4px #00f2fe)"/>
-                <circle cx="380" cy="130" r="4" fill="#ffaa33" filter="drop-shadow(0px 0px 4px #ffaa33)"/>
+                <circle cx="160" cy="190" r="4" fill="#00adb5" filter="drop-shadow(0px 0px 5px #00adb5)"/>
+                <circle cx="210" cy="185" r="4" fill="#eeeeee" filter="drop-shadow(0px 0px 4px #eeeeee)"/>
+                <circle cx="260" cy="165" r="4" fill="#00adb5" filter="drop-shadow(0px 0px 5px #00adb5)"/>
+                <circle cx="300" cy="145" r="4" fill="#eeeeee" filter="drop-shadow(0px 0px 4px #eeeeee)"/>
+                <circle cx="380" cy="130" r="4" fill="#00adb5" filter="drop-shadow(0px 0px 5px #00adb5)"/>
                 
-                <text x="250" y="110" fill="#fff" font-family="Outfit, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" opacity="0.8">★ LANTERN TRAILS ★</text>
+                <text x="250" y="110" fill="#eeeeee" font-family="Outfit, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" opacity="0.9">★ LANTERN TRAILS ★</text>
 
-                <!-- Current Entrance Location Pin -->
+                <!-- entrance pin -->
                 <g class="map-pin">
-                  <circle cx="50" cy="320" r="6" fill="#ff3b6f"/>
-                  <circle cx="50" cy="320" r="14" fill="none" stroke="#ff3b6f" stroke-width="2" opacity="0.6">
+                  <circle cx="50" cy="320" r="6" fill="#00adb5"/>
+                  <circle cx="50" cy="320" r="14" fill="none" stroke="#00adb5" stroke-width="2" opacity="0.6">
                     <animate attributeName="r" values="6;18;6" dur="2s" repeatCount="indefinite" />
                   </circle>
-                  <text x="50" y="342" fill="#ff3b6f" font-family="Outfit, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Main Entry</text>
+                  <text x="50" y="342" fill="#00adb5" font-family="Outfit, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Main Entry</text>
                 </g>
 
                 <g>
-                  <circle cx="450" cy="320" r="6" fill="#ffaa33"/>
-                  <text x="450" y="342" fill="#ffaa33" font-family="Outfit, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">East Entry</text>
+                  <circle cx="450" cy="320" r="6" fill="#eeeeee"/>
+                  <text x="450" y="342" fill="#eeeeee" font-family="Outfit, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">East Entry</text>
                 </g>
               </svg>
             </div>
@@ -114,7 +114,7 @@
 
       </div>
 
-      <!-- Getting Here Guide -->
+      <!-- getting here -->
       <div class="getting-here" id="getting-here">
         <div class="section-header">
           <span class="section-label">Transport Guide</span>
@@ -123,30 +123,30 @@
         </div>
 
         <div class="transport-grid">
-          <!-- Card 1: Train -->
+          <!-- train -->
           <article class="transport-card" id="transport-train">
-            <span class="transport-icon">🚇</span>
+            <span class="transport-icon">Train</span>
             <h3>By Train</h3>
             <p>Brunswick Railway Station (Upfield Line) is the closest station. It is a scenic 7-minute walk to the park's East Entry. Lantern trail wayfinding pillars will guide you from the exit.</p>
           </article>
 
-          <!-- Card 2: Bus -->
+          <!-- bus -->
           <article class="transport-card" id="transport-bus">
-            <span class="transport-icon">🚌</span>
+            <span class="transport-icon">Bus</span>
             <h3>By Bus</h3>
             <p>Bus Route 508 (Gisborne - Alphington) runs directly along Victoria Street and stops outside the main entry gate. Extra night shuttle services are scheduled for Friday and Saturday nights.</p>
           </article>
 
-          <!-- Card 3: Tram -->
+          <!-- tram -->
           <article class="transport-card" id="transport-tram">
-            <span class="transport-icon">🚋</span>
+            <span class="transport-icon">Tram</span>
             <h3>By Tram</h3>
             <p>Route 96 (East Brunswick) stops at the terminal loop on Nicholson Street. From there, follow the illuminated path westward down Victoria Street for approximately 10 minutes.</p>
           </article>
 
-          <!-- Card 4: Bicycle / Parking -->
+          <!-- bike and parking -->
           <article class="transport-card" id="transport-cycling">
-            <span class="transport-icon">🚲</span>
+            <span class="transport-icon">Bike</span>
             <h3>Bicycle & Parking</h3>
             <p>Bicycle racks are installed at both Main and East entries. Limited street parking is available, alongside a designated drop-off/rideshare zone at the North gate.</p>
           </article>
@@ -156,7 +156,7 @@
 
   </main>
 
-  <!-- Site Footer -->
+  <!-- footer -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">

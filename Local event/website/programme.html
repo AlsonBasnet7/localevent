@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Explore the Starlight Lantern & Arts Festival 2026 programme. Plan your visit with our full schedule of live music, art workshops, and light trails.">
   <title>Programme | Starlight Lantern & Arts Festival 2026</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- Navigation Header -->
+  <!-- header -->
   <header class="site-header">
     <div class="nav-container">
       <a href="index.html" class="site-logo" id="header-logo">
@@ -35,7 +35,7 @@
     </div>
   </header>
 
-  <!-- Main Website Content -->
+  <!-- page content -->
   <main class="main-content">
     
     <section class="container" id="programme-section">
@@ -45,13 +45,13 @@
         <p class="section-subtitle">Plan your weekend with our detailed timetable of light walks, acoustic sessions, and hands-on workshops across three stages.</p>
       </div>
 
-      <!-- Hidden Radio Inputs for Pure CSS Filtering -->
+      <!-- hidden radio inputs for CSS filtering -->
       <input type="radio" id="filter-all" name="stage-filter" checked style="display: none;">
       <input type="radio" id="filter-main" name="stage-filter" style="display: none;">
       <input type="radio" id="filter-dome" name="stage-filter" style="display: none;">
       <input type="radio" id="filter-trail" name="stage-filter" style="display: none;">
 
-      <!-- Category Filter Tabs -->
+      <!-- filter buttons -->
       <div class="filter-tabs" id="filters-container">
         <label for="filter-all" class="filter-btn filter-btn-all">All Events</label>
         <label for="filter-main" class="filter-btn filter-btn-main">Main Stage</label>
@@ -59,7 +59,7 @@
         <label for="filter-trail" class="filter-btn filter-btn-trail">Lantern Trail</label>
       </div>
 
-      <!-- Timetable Container -->
+      <!-- schedule table -->
       <div class="timetable-container" id="schedule-table-wrapper">
         <table class="timetable">
           <thead>
@@ -72,7 +72,6 @@
             </tr>
           </thead>
           <tbody id="timetable-body">
-            <!-- Row 1 -->
             <tr class="event-row" data-stage="main">
               <td class="time-slot">18:00 - 18:30</td>
               <td>
@@ -83,7 +82,6 @@
               <td>Main Stage</td>
               <td><span class="location-badge badge-main">Performance</span></td>
             </tr>
-            <!-- Row 2 -->
             <tr class="event-row" data-stage="main">
               <td class="time-slot">18:30 - 20:00</td>
               <td>
@@ -94,7 +92,6 @@
               <td>Main Stage</td>
               <td><span class="location-badge badge-main">Music</span></td>
             </tr>
-            <!-- Row 3 -->
             <tr class="event-row" data-stage="dome">
               <td class="time-slot">19:00 - 20:30</td>
               <td>
@@ -105,7 +102,6 @@
               <td>Workshop Dome</td>
               <td><span class="location-badge badge-dome">Workshop</span></td>
             </tr>
-            <!-- Row 4 -->
             <tr class="event-row" data-stage="trail">
               <td class="time-slot">19:30 - 22:30</td>
               <td>
@@ -116,7 +112,6 @@
               <td>Lantern Trail</td>
               <td><span class="location-badge badge-trail">Exhibition</span></td>
             </tr>
-            <!-- Row 5 -->
             <tr class="event-row" data-stage="main">
               <td class="time-slot">20:30 - 22:00</td>
               <td>
@@ -127,7 +122,6 @@
               <td>Main Stage</td>
               <td><span class="location-badge badge-main">Music</span></td>
             </tr>
-            <!-- Row 6 -->
             <tr class="event-row" data-stage="dome">
               <td class="time-slot">21:00 - 22:00</td>
               <td>
@@ -138,7 +132,6 @@
               <td>Workshop Dome</td>
               <td><span class="location-badge badge-dome">Workshop</span></td>
             </tr>
-            <!-- Row 7 -->
             <tr class="event-row" data-stage="trail">
               <td class="time-slot">22:00 - 22:30</td>
               <td>
@@ -158,7 +151,7 @@
 
   </main>
 
-  <!-- Site Footer -->
+  <!-- footer -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
