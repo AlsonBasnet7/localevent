@@ -1032,6 +1032,27 @@ textarea.form-control {
   display: block;
 }
 
+/* submit button full-width override (replaces inline style) */
+.btn-full {
+  width: 100%;
+  border: none;
+}
+
+/* social intro paragraph spacing (replaces inline style) */
+.social-intro {
+  margin-bottom: 1.5rem;
+}
+
+/* venue SVG map background (replaces inline style) */
+.venue-svg-map {
+  background-color: #222831;
+}
+
+/* hidden radio filter inputs (replaces inline style) */
+.filter-radio {
+  display: none;
+}
+
 /* footer */
 .site-footer {
   background-color: #1a1f26;
